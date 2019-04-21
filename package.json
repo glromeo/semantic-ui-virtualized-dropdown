@@ -1,0 +1,48 @@
+{
+  "name": "semantic-ui-virtualized-dropdown",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "debounce": "^1.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "memoize-one": "^5.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8",
+    "react-shadow": "^16.3.2",
+    "react-virtualized": "^9.21.0",
+    "semantic-ui-css": "^2.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9009 -s ./public,./node_modules",
+    "build-storybook": "build-storybook"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@storybook/addon-actions": "^5.0.5",
+    "@storybook/addon-knobs": "^5.0.5",
+    "@storybook/addon-links": "^5.0.5",
+    "@storybook/addons": "^5.0.5",
+    "@storybook/react": "^5.0.5",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.12",
+    "babel-loader": "^8.0.5",
+    "http-proxy-middleware": "^0.19.1",
+    "node-sass": "^4.11.0"
+  }
+}
